@@ -11,7 +11,6 @@ export const Login = () => {
       "http://localhost:3000/usuarios/login",
       values
     );
-    console.log(response.data);
 
     if (response.data.status === "success") {
       localStorage.setItem("usser", JSON.stringify(response.data));

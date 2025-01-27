@@ -28,7 +28,6 @@ export const Navbar = () => {
     setLogin(user);
   }, ["Inicio de sesion"]);
 
-  console.log(JSON.parse(login));
   return (
     <>
       <Layout>
